@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<view>
+  <header>
+    <title>A view in MVC - southday</title>
+  </header>
+  <body>
+    <form>
+      <name>logoutForm</name>
+      <action>logout.sc</action>
+      <method>post</method>
+      <textView>
+        <name>userName</name>
+        <label>用户名</label>
+        <value>lcx</value>
+      </textView>
+      <textView>
+        <name>userAge</name>
+        <label>年龄</label>
+        <value>24</value>
+      </textView>
+      <checkBoxView>
+        <name>sex</name>
+        <label>性别</label>
+        <type>radio</type>
+        <box>
+          <value>male</value>
+          <text>男</text>
+          <checked>1</checked>
+        </box>
+        <box>
+          <value>female</value>
+          <text>女</text>
+        </box>
+      </checkBoxView>
+      <selectView>
+        <name>education</name>
+        <label>学历</label>
+        <option>
+          <value>undergraduate</value>
+          <text>本科生</text>
+        </option>
+        <option>
+          <value>postgraduate</value>
+          <text>研究生</text>
+        </option>
+        <option>
+          <value>doctoral</value>
+          <text>博士生</text>
+        </option>
+      </selectView>
+      <buttonView>
+        <name>logoutButton</name>
+        <label>退出</label>
+      </buttonView>
+    </form>
+  </body>
+</view>

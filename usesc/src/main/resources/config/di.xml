@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<sc-di>
+    <bean id="user" class="southday.j2eework.water.ustc.bean.User"></bean>
+    <bean id="loginAction" class="southday.j2eework.water.ustc.action.LoginAction">
+        <field name="user" bean-ref="user"></field>
+    </bean>
+    <bean id="registerAction" class="southday.j2eework.water.ustc.action.RegisterAction">
+        <field name="user" bean-ref="user"></field>
+    </bean>
+    <bean id="defaultAction" class="southday.j2eework.sc.ustc.controller.action.DefaultAction"></bean>
+    <bean id="logoutAction" class="southday.j2eework.water.ustc.action.LogoutAction"></bean>
+</sc-di>
