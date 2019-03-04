@@ -1,0 +1,15 @@
+# Author  southday
+# date    2019-03-04
+# version 1
+
+# common
+*.class
+.settings/
+bin/
+.classpath
+.project
+
+# IDEA
+.idea/
+*.iml
+target/
